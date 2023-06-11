@@ -8,8 +8,8 @@ const ItemListContainer = ({ greeting }) => {
             <section style={{ backgroundColor: 'gray'}}>
                 <h2 className='text-center p-3 m-5' >Nuestro Menu Online!</h2>
             </section>
-            <section style={{margin:15}}>
-                <CardGroup style={{gap:20}}>
+            <section style={{margin:35}}>
+                <CardGroup style={{gap:40}}>
                     <Card>
                         <Card.Img variant="top" src="/img/sopa.jpg" style={{height:300}}  />
                         <Card.Body className='bg-secondary'>
