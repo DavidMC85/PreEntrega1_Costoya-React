@@ -2,11 +2,11 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
-const ItemListContainer = ({ greeting }) => {
+const ItemListContainer = ({greeting}) => {
     return (
         <main style={{ backgroundColor: '#ce7a2d', paddingTop:10, paddingBottom:100}}>
             <section style={{ backgroundColor: 'gray'}}>
-                <h2 className='text-center p-3 m-5' >Nuestro Menu Online!</h2>
+                <h2 className='text-center p-3 m-5' >{greeting}</h2>
             </section>
             <section style={{margin:35}}>
                 <CardGroup style={{gap:40}}>

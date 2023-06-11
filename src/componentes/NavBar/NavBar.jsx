@@ -20,11 +20,11 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto" style={{ fontWeight: 'bold', fontSize: 25, marginLeft:15, gap:15}}>
-                        <Nav.Link href="#link">Galeria</Nav.Link>
+                        <Nav.Link href="galeria">Galeria</Nav.Link>
                         <NavDropdown title="Arma tu pedido!" id="basic-nav-dropdown" bg="secondary">
-                            <NavDropdown.Item href="#action/3.1">Entradas</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Platos Principales</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Postres</NavDropdown.Item>
+                            <NavDropdown.Item href="menu_entradas">Entradas</NavDropdown.Item>
+                            <NavDropdown.Item href="menu_principales">Platos Principales</NavDropdown.Item>
+                            <NavDropdown.Item href="menu_postres">Postres</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
